@@ -1,5 +1,5 @@
 # LabArm - Blind Object Classification
-This project focus on object identification based on the LabArm feedback only (no camera). The idea is to provide additional features to the camera in order to confirm and/or add more information about the grabbed object. This work was implemented as a normal function in the LabArm library but I separated into two different project due to the increase of complexity and so let the LabArm-API simple and minimalist [HERE](https://github.com/BenbenIO/LabArm-Cpp-API). 
+This project focus on object identification based on the LabArm feedback only (no camera). The idea is to provide additional features to the camera in order to confirm and/or add more information about the grabbed object. This work was implemented as a normal function in the LabArm library but I separated into two different projects to let the LabArm-API simple and minimalist [HERE](https://github.com/BenbenIO/LabArm-Cpp-API). 
 <p align="center">
   <img src="/Images/armpicture.PNG" width="300">
 </p>
@@ -15,7 +15,7 @@ The programme depend on the __dynamixel_sdk__ library. Installation information 
 <br/> You can add other library to the project by adding: __SOURCES += yourcode.cpp__ in the MakeFile.
 
 # Principle
-For a precise description, please read the [PDF file](), which describe all measurment principle and show classification proof of concept done in python (sklearn). I then implemented the SVM on C++ and integrate the solution into this project.
+For a precise description, please read the [PDF file](https://github.com/BenbenIO/LabArm-Blind_Object_Classification/blob/master/Blind%20Object%20Recognition%20with%20LabArm.pdf), which describe all measurment principle and show classification proof of concept done in python (sklearn). I then implemented the SVM on C++ and integrate the solution into this project.
 
 # Current Performances & Ongoing research
 The accuracy of the function is worsen due to a change in the configuration between the implementation and the dataset creation. Another limitation is the instabillity of the weighting function (empty weight is not a constant). 
