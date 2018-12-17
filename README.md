@@ -1,10 +1,11 @@
 # LabArm - Blind Object Classification
-This project focus on object identification based on the LabArm feedback only (no camera). The idea is to provide additional features to the camera in order to confirm and/or add more information about the grabbed object. This work was implemented as a normal function in the LabArm library but I separated into two different project due to the increase of complexity and so let the LabArm-API simple and minimalist [HERE](https://github.com/BenbenIO/LabArm-Cpp-API).
+This project focus on object identification based on the LabArm feedback only (no camera). The idea is to provide additional features to the camera in order to confirm and/or add more information about the grabbed object. This work was implemented as a normal function in the LabArm library but I separated into two different project due to the increase of complexity and so let the LabArm-API simple and minimalist [HERE](https://github.com/BenbenIO/LabArm-Cpp-API). 
 <p align="center">
   <img src="/images/armpicture.PNG" width="300">
 </p>
+
 ### The challenge is to make the difference between a chesnut-stone, and plastic-glass bottle.
-<br/> If you are willing to use this project, I would like to know on what kind of object you planned to use it :)
+If you are willing to use this project, I would like to know on what kind of object you planned to use it :)
 
 # Install && Dependencies
 The programme depend on the __dynamixel_sdk__ library. Installation information can be found on their [github](https://github.com/ROBOTIS-GIT/DynamixelSDK). If you want to use a raspberry Pi please build and intall the SingleBoard Computer version (linux_sbc). For Joystick control, we based our function on [A minimal C++ object-oriented API onto joystick devices under Linux](https://github.com/drewnoakes/joystick), but the library is available on this repository.
