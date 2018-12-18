@@ -1,7 +1,7 @@
 # LabArm - Blind Object Classification
 This project focus on object identification based on the LabArm feedback only (no camera). The idea is to provide additional features to the camera in order to confirm and/or add more information about the grabbed object. This work was implemented as a normal function in the LabArm library but I separated into two different projects to let the LabArm-API simple and minimalist [HERE](https://github.com/BenbenIO/LabArm-Cpp-API). 
 To get a better understanding of the project, please have a look at:
-* [proof of concept video](https://youtu.be/eXRplSR5dM0)
+* [proof of concept video](https://www.youtube.com/watch?v=oYdSxZhapIE)
 
 <p align="center">
   <img src="/Images/armpicture.PNG" width="300">
